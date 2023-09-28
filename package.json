@@ -11,6 +11,12 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.4"
+    "@quasar/vite-plugin": "^1.5.0",
+    "nuxt": "^3.7.4",
+    "sass": "1.32.12"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.7",
+    "quasar": "^2.12.7"
   }
 }
