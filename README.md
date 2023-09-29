@@ -8,10 +8,11 @@ Project Homepage: [https://fubuki2.mgcup.net](https://fubuki2.mgcup.net/)
 現在日本語のみの対応となっています。
 
 ## To-Do
-- フッターを作成する
 - 多言語対応
 - ダークモード
 - 再生コントロール（難しい）
+- 配信の取得
+- サイドバーの固定
 
 ## Development Guide
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

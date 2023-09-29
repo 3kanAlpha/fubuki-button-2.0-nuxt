@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: [ '@nuxt/content', 'nuxt-quasar-ui' ],
+  modules: [ '@nuxt/content', 'nuxt-quasar-ui', '@nuxtjs/i18n' ],
   quasar: {
     extras: {
       fontIcons: [
