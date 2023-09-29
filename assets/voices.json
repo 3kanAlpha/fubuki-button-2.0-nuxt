@@ -311,7 +311,7 @@
           "description": {
             "zh": "(幼狐)哇，去哪里了",
             "en": "(Little FBK)Wow, where?",
-            "ja": "(ちびっ狐)わああ　どこいたの"
+            "ja": "(ちびっ狐)わああ　どこいったの"
           }
         },
         {
@@ -320,7 +320,7 @@
           "description": {
             "zh": "(幼狐)死掉了",
             "en": "(Little FBK)I'm dead",
-            "ja": "(ちびっ狐)しんじゃだ"
+            "ja": "(ちびっ狐)しんじゃった…"
           }
         },
         {
@@ -329,7 +329,7 @@
           "description": {
             "zh": "啊 好疼啊噗喵",
             "en": "Oh!It’s so hurt!",
-            "ja": "あっ痛いよぷにゃ"
+            "ja": "あっ痛いよ～ぷにゃ"
           }
         }
       ]
@@ -510,7 +510,7 @@
           "description": {
             "zh": "呜呜呜呜&%@！¥#···救我",
             "en": "&%@！¥#Help me!!!",
-            "ja": "ううる &%@！¥# 助けて えちゃん"
+            "ja": "ううる &%@！¥# 助けて えーちゃん"
           }
         },
         {
@@ -519,7 +519,7 @@
           "description": {
             "zh": "库~ 库~",
             "en": "ku~ ku~",
-            "ja": "（吸气）くぅぅぅぅぅぅ"
+            "ja": "（呼吸）くぅぅぅぅぅぅ"
           }
         },
         {
@@ -537,7 +537,7 @@
           "description": {
             "zh": "乌拉—",
             "en": "ura-",
-            "ja": "うら　うら"
+            "ja": "うらああああああ"
           }
         },
         {
@@ -546,7 +546,7 @@
           "description": {
             "zh": "嘟~嘟噜 嘟~嘟噜",
             "en": "du~dulu du~dulu",
-            "ja": "とっうるとっうるしる"
+            "ja": "とぅるっとぅるとぅるっとぅるしてる"
           }
         },
         {
@@ -574,7 +574,7 @@
           "description": {
             "zh": "不是猫,不是猫啦,真是的",
             "en": "I'm not cat. Really!",
-            "ja": "猫じゃない!猫じゃないよ!もう!"
+            "ja": "猫じゃないです!猫じゃないですよ～もう!"
           }
         },
         {
@@ -583,7 +583,7 @@
           "description": {
             "zh": "不是猫!",
             "en": "Not CAT!",
-            "ja": "猫じゃない!"
+            "ja": "猫じゃないです!"
           }
         },
         {
@@ -619,7 +619,7 @@
           "description": {
             "zh": "我爱你!我爱你可以嘛",
             "en": "I Love U! (Chinese)",
-            "ja": "あいしている!"
+            "ja": "うぉーあいにー"
           }
         },
         {
@@ -691,7 +691,7 @@
           "description": {
             "zh": "(小黑)鼓起干劲来啊笨蛋",
             "en": "(Kuro-Chan)Come on!Baka",
-            "ja": "(黒様)元気出してよ、ばか"
+            "ja": "(黒様) 気合入れろ、バーカ"
           }
         },
         {
@@ -736,7 +736,7 @@
           "description": {
             "zh": "我等这一刻很久了！",
             "en": "I've waited long time for the moment!",
-            "ja": "これを待ってるだよ"
+            "ja": "これを待ってたんだよ！"
           }
         },
         {
@@ -745,7 +745,7 @@
           "description": {
             "zh": "(小黑)这个是什么?好吃吗?",
             "en": "(Kuro-Chan)What's this? Taste good?",
-            "ja": "(黒様)なにそれ?おいしいの?"
+            "ja": "(黒様) なにそれおいしいんですか。"
           }
         },
         {
@@ -754,7 +754,7 @@
           "description": {
             "zh": "(小黑)那真是太好了！哼你们的鼓膜都给我消失吧",
             "en": "(Kuro-Chan)That's great! Your eardrums go vanished!",
-            "ja": "(黒様)それはよかった。鼓膜全部消えてくれ！"
+            "ja": "(黒様) 鼓膜なんか無くなっちまえ"
           }
         },
         {
@@ -763,7 +763,7 @@
           "description": {
             "zh": "(小黑)你们都给我当作没听到",
             "en": "(Kuro-Chan)You all pretend you didn't hear it.",
-            "ja": "(黒様)聞かなかったことにしろ！"
+            "ja": "(黒様) 聞かなかったことにしろ！"
           }
         },
         {
@@ -772,7 +772,7 @@
           "description": {
             "zh": "(小黑)忘却光线!",
             "en": "(Kuro-Chan)Memory erasing beam!",
-            "ja": "(黒様)忘れろビーム！"
+            "ja": "(黒様) 忘れろビーム！"
           }
         },
         {
@@ -853,7 +853,7 @@
           "description": {
             "zh": "真是的 你别生气啊",
             "en": "Neee, don't be angry",
-            "ja": "おごらないでや　もう"
+            "ja": "怒んないでよ、も～"
           }
         },
         {
@@ -880,7 +880,7 @@
           "description": {
             "zh": "你胖了",
             "en": "You are fat",
-            "ja": "ふ とってる"
+            "ja": "太ってる"
           }
         },
         {
@@ -889,7 +889,7 @@
           "description": {
             "zh": "快跑啊快跑啊",
             "en": "Escape! Run away!",
-            "ja": "逃げる　逃げるだよ"
+            "ja": "逃げるんだよォ！"
           }
         },
         {
@@ -898,7 +898,7 @@
           "description": {
             "zh": "没 问 题 的 广 东 狐",
             "en": "No Problem!(Cantonese)",
-            "ja": "全然問題ないー(広東語)\n"
+            "ja": "全然問題ないー"
           }
         }
       ]
@@ -989,7 +989,7 @@
           "description": {
             "zh": "大家起床了吗 还没起床的观众们 再不起来的话 我就用尾巴去挠你们的鼻子",
             "en": "Have u got up? If you can't get up, I will use tail to scratch your nose!",
-            "ja": "起きでますか、起きでない方は、今すぐ起きないと、尾で鼻の下おくすぐります"
+            "ja": "起きてますかー"
           }
         },
         {
@@ -1071,7 +1071,7 @@
           "description": {
             "zh": "u-mua(双声道kiss)",
             "en": "u-mua(Kiss)",
-            "ja": "んーまっ!(なげキス)"
+            "ja": "んーまっ! (投げキッス)"
           }
         },
         {
@@ -1125,7 +1125,7 @@
           "description": {
             "zh": "抛售柠檬小狐狸-BV12K411L7dE",
             "en": "All of u, can't beat me!",
-            "ja": "“みなには、わたしに勝てない！”"
+            "ja": "“みんなは、わたしに勝てない！”"
           }
         },
         {
@@ -1134,7 +1134,7 @@
           "description": {
             "zh": "啊好难，害羞 害羞",
             "en": "Ah, it's difficult.How shy.",
-            "ja": "あぁ、難しい、恥ずかし、恥ずかしよ"
+            "ja": "あぁ、難しい、恥ずかし、恥ずかしいよ～"
           }
         },
         {
@@ -1152,7 +1152,7 @@
           "description": {
             "zh": "什么？什么声音？",
             "en": "What sounds?",
-            "ja": "わーー何音？"
+            "ja": "わー、何の音？"
           }
         },
         {
@@ -1161,7 +1161,7 @@
           "description": {
             "zh": "好！来了！",
             "en": "OK! I'm comming!",
-            "ja": "よし、こら、来たっぜ！！！"
+            "ja": "よっしゃ、こら、来たぜおい！！！"
           }
         },
         {
@@ -1170,7 +1170,7 @@
           "description": {
             "zh": "(小黑)什么呀",
             "en": "(Kuro-Chan)What the ...",
-            "ja": "(黒様)なんだよ"
+            "ja": "(黒様) なんだよ"
           }
         },
         {
@@ -1179,7 +1179,7 @@
           "description": {
             "zh": "(小黑)啊 好恶心",
             "en": "(Kuro-Chan)Ah disgusting",
-            "ja": "(黒様)あっ　きもちわるい"
+            "ja": "(黒様) ああクソ！気持ち悪い"
           }
         },
         {
@@ -1188,7 +1188,7 @@
           "description": {
             "zh": "(小黑)啊啊好困",
             "en": "(Kuro-Chan)Ah I'm so sleepy",
-            "ja": "(黒様)あっっ　ねむい"
+            "ja": "(黒様) あ～ねみい"
           }
         },
         {
@@ -1197,7 +1197,7 @@
           "description": {
             "zh": "(小黑)吹—雪—",
             "en": "(Kuro-Chan)Fu-bu-ki--",
-            "ja": "(黒様)フーブーキ——"
+            "ja": "(黒様) フーブーキー（怒）"
           }
         },
         {
@@ -1206,7 +1206,7 @@
           "description": {
             "zh": "(小黑)自己去啊，干嘛啊这个家伙",
             "en": "(Kuro-Chan)Do it yourself! Who do u think u are?",
-            "ja": "(黒様)自分でいくやん　何だよ　こいつ"
+            "ja": "(黒様) 自分でいくやん　何だよ　こいつ"
           }
         },
         {
@@ -1306,7 +1306,7 @@
           "description": {
             "zh": "啦啦啦烤面包",
             "en": "Lalala,kopepan",
-            "ja": "ららら、こぺぱん"
+            "ja": "らららコッペパン"
           }
         },
         {
@@ -1424,7 +1424,7 @@
           "description": {
             "zh": "接龙 石蕊纸",
             "en": "Ritoumasushi",
-            "ja": "しりとり り　りとうますし"
+            "ja": "（しりとり）しりとり → リトマス紙"
           }
         },
         {
@@ -1433,7 +1433,7 @@
           "description": {
             "zh": "不知道为什么想吃午饭的肚子",
             "en": "I don't know why but my stomach wants to have lunch",
-            "ja": "けもな　な　なかしらないけとひるごはんたべるおなか"
+            "ja": "（しりとり）ケモナー → なんか知らないけどお昼ごはん食べたのになるおなか"
           }
         },
         {
@@ -1442,7 +1442,7 @@
           "description": {
             "zh": "明明是猫",
             "en": "Isn't this a cat",
-            "ja": "ちかばね　ね　ねこやんけ"
+            "ja": "（しりとり）ちかばね → ねこやんけ"
           }
         }
       ]

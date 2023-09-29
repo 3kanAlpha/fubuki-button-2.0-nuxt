@@ -14,3 +14,16 @@ function playAudioClip() {
   audio.play()
 }
 </script>
+
+<style scoped>
+.audio-button {
+  background-color: #6bb8f6;
+  color: #fff;
+  transition: .3s all;
+}
+
+.audio-button:hover {
+  transform: scale(1.02);
+  transition: .3s all;
+}
+</style>
