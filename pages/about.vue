@@ -9,7 +9,3 @@
     </q-layout>
   </NuxtLayout>
 </template>
-
-<style lang="scss" scoped>
-@use "~/assets/markdown.css";
-</style>

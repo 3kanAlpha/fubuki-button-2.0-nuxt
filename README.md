@@ -2,9 +2,16 @@
 
 Project Homepage: *Under Construction*
 
+[旧フブキボタン](https://github.com/3kanAlpha/fubuki-button/tree/master)をVue 3.x + Nuxt 3.x環境に移植したものです。  
+まだ実装されていない機能がたくさんあります……。
+
+現在日本語のみの対応となっています。
+
 ## To-Do
 - フッターを作成する
-- 音声が再生されないバグの解消
+- 多言語対応
+- ダークモード
+- 再生コントロール（難しい）
 
 ## Development Guide
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

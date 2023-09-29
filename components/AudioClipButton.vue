@@ -10,7 +10,7 @@ const props = defineProps({
 
 function playAudioClip() {
   const basePath = '/voices/'
-  const audio = new Audio(basePath + props.clipPath)
+  const audio = new Audio(basePath + props.audioPath)
   audio.play()
 }
 </script>

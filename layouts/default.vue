@@ -39,7 +39,7 @@
           </q-item-section>
         </q-item>
         <q-separator />
-        <q-item clickable v-ripple to="/about">
+        <q-item disable v-ripple to="/about">
           <q-item-section avatar>
             <q-icon name="mdi-code-tags" />
           </q-item-section>
