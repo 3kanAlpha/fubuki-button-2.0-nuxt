@@ -1,6 +1,6 @@
 # Fubuki-Button 2.0 - Shirakami Fubuki's Voice Button
 
-Project Homepage: *Under Construction*
+Project Homepage: [https://fubuki2.mgcup.net](https://fubuki2.mgcup.net/)
 
 [旧フブキボタン](https://github.com/3kanAlpha/fubuki-button/tree/master)をVue 3.x + Nuxt 3.x環境に移植したものです。  
 まだ実装されていない機能がたくさんあります……。
