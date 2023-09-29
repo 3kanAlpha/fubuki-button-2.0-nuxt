@@ -1,0 +1,13 @@
+@use "~/assets/quasar-variables.sass" as *;
+
+.youtube-icon {
+  fill: $negative;
+}
+
+.twitter-icon {
+  fill: $primary;
+}
+
+.card-area {
+  margin: 10px;
+}

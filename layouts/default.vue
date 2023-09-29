@@ -24,7 +24,7 @@
         </q-item>
         <q-item clickable v-ripple href="https://www.youtube.com/@ShirakamiFubuki" target="_blank">
           <q-item-section avatar>
-            <q-icon name="img:img/youtube.svg" color="negative"  />
+            <q-icon name="img:img/youtube.svg" class="youtube-icon" />
           </q-item-section>
           <q-item-section>
             YouTube
@@ -32,7 +32,7 @@
         </q-item>
         <q-item clickable v-ripple href="https://twitter.com/shirakamifubuki" target="_blank">
           <q-item-section avatar>
-            <q-icon name="img:img/twitter.svg" color="primary" />
+            <q-icon name="img:img/twitter.svg" class="twitter-icon" />
           </q-item-section>
           <q-item-section>
             Twitter (X)
@@ -73,3 +73,7 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+@use "~/assets/scss/main.scss";
+</style>

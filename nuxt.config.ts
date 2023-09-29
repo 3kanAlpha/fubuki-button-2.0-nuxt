@@ -8,5 +8,17 @@ export default defineNuxtConfig({
         'mdi-v7',
       ]
     }
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@use "~/assets/quasar-variables.sass" as *;`
+        }
+      }
+    }
+  },
+  runtimeConfig: {
+    apiKey: "hoge",
   }
 })
