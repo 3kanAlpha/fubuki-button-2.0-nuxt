@@ -1,5 +1,5 @@
 <template>
-  <q-card class="card-area">
+  <q-card class="card-area q-ma-md">
       <q-card-section>
         <div class="text-h6">{{ props.group.group_description['ja'] }}</div>
       </q-card-section>

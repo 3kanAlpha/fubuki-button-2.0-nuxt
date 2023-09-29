@@ -16,5 +16,10 @@ export default {
       groups: voices.groups
     }
   },
+  head() {
+    return {
+      title: this.$t('site.title') + '(^・ω・^§)ﾉ',
+    }
+  }
 }
 </script>

@@ -3,7 +3,7 @@
 Project Homepage: *Under Construction*
 
 ## To-Do
-- CSSで見た目を整える
+- フッターを作成する
 - 音声が再生されないバグの解消
 
 ## Development Guide

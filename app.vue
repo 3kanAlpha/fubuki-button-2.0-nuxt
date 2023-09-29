@@ -4,6 +4,6 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'フブキボタン(^・ω・^§)ﾉ'
+  title: 'フブキボタン'
 })
 </script>

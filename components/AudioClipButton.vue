@@ -1,5 +1,5 @@
 <template>
-  <q-btn unelevated rounded color="primary" :label="label" @click="playAudioClip" />
+  <q-btn unelevated rounded :label="label" @click="playAudioClip" class="audio-button q-ma-xs" />
 </template>
 
 <script setup>
