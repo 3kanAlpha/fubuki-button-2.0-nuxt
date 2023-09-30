@@ -1,7 +1,7 @@
 <template>
-  <q-card class="video-card" bordered>
+  <q-card class="video-card cursor-pointer" bordered>
     <a :href="'https://www.youtube.com/watch?v=' + videoId" target="_blank" rel="noreferrer">
-      <q-img :src="'https://img.youtube.com/vi/' + videoId + '/maxresdefault.jpg'">
+      <q-img :src="'https://img.youtube.com/vi/' + videoId + '/maxresdefault.jpg'" class="rounded-borders">
         <div class="absolute-bottom text-subtitle2 text-center">
           {{ videoTitle }}
         </div>
