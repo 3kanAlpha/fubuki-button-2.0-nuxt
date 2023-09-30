@@ -11,7 +11,6 @@ Project Homepage: [https://fubuki2.mgcup.net](https://fubuki2.mgcup.net/)
 - 多言語対応
 - ダークモード
 - 再生コントロール（難しい）
-- 配信の取得
 - サイドバーの固定
 
 ## Development Guide

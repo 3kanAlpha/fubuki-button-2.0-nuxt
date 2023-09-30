@@ -1,6 +1,7 @@
 <template>
   <NuxtLayout>
     <q-layout style="min-height: 500px">
+      <LiveStreamInfo />
       <AudioClipGroup v-for="group in groups" :group="group" />
       <div class="footer-area q-pa-md">
         <div>
