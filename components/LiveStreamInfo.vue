@@ -35,6 +35,9 @@
             <div v-else>
               予定されているライブ配信はありません。
             </div>
+            <p class="text-caption">
+              ※ {{ apiResponse.timestamp }} 時点の情報です。
+            </p>
           </div>
         </div>
       </Transition>
