@@ -72,7 +72,8 @@ import { ref } from 'vue'
 
 export default {
   setup () {
-    const leftDrawerOpen = ref(true)
+    const { isDesktopOrTablet } = useDevice()
+    const leftDrawerOpen = ref(isDesktopOrTablet)
 
     return {
       leftDrawerOpen,
