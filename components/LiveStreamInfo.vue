@@ -10,7 +10,8 @@
     <q-card-section>
       <Transition appear name="liveinfo">
         <div v-if="!pending">
-          <div v-if="error">
+          <div v-if="error" class="text-red">
+            <q-icon name="mdi-alert-outline" size="1.1em" color="red" />
             配信情報の取得に失敗しました。
           </div>
           <div v-else>
@@ -59,7 +60,8 @@ const { data: apiResponse, pending, error, refresh } = await useFetch(queryUrl, 
   method: 'GET',
   headers: {
     'Accept': 'application/json'
-  }
+  },
+  cache: 'no-cache'
 })
 </script>
 
