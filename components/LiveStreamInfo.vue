@@ -61,7 +61,7 @@ const { data: apiResponse, pending, error, refresh } = await useFetch(queryUrl, 
   headers: {
     'Accept': 'application/json'
   },
-  cache: 'no-cache'
+  cache: 'no-store'
 })
 </script>
 
