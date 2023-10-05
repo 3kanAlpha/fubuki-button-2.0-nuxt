@@ -68,7 +68,7 @@
 </template>
 
 <script setup>
-const queryUrl = 'https://fubuki-api.fly.dev/fubuki/live'
+const queryUrl = 'https://fubuki-api.fly.dev/api/fubuki/live'
 
 const { data: apiResponse, pending, error, refresh } = await useFetch(queryUrl, {
   method: 'GET',
