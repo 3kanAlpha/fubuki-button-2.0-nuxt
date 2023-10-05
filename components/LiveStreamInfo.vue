@@ -22,7 +22,7 @@
                   現在配信中のライブストリーム
                 </span>
                 <div class="q-pa-md q-gutter-md">
-                  <YouTubeVideoLink v-for="activeLive in apiResponse.live" :video-id="activeLive.id.videoId" :video-title="activeLive.snippet.title" />
+                  <YouTubeVideoLink v-for="activeLive in apiResponse.live" :video-id="activeLive.id" :video-title="activeLive.snippet.title" />
                 </div>
               </div>
               <div v-else-if="apiResponse.upcoming.length > 0">
@@ -31,7 +31,7 @@
                   現在予定されているライブストリーム
                 </span>
                 <div class="q-pa-md q-gutter-md">
-                  <YouTubeVideoLink v-for="upcomingLive in apiResponse.upcoming" :video-id="upcomingLive.id.videoId" :video-title="upcomingLive.snippet.title" />
+                  <YouTubeVideoLink v-for="upcomingLive in apiResponse.upcoming" :video-id="upcomingLive.id" :video-title="upcomingLive.snippet.title" />
                 </div>
               </div>
               <div v-else>
