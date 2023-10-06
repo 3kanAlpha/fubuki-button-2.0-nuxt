@@ -9,48 +9,50 @@
       </q-card-section>
 
       <q-card-section>
-        <Transition appear name="liveinfo">
-          <div v-if="!pending">
-            <div v-if="error" class="text-red">
-              <q-icon name="mdi-alert-outline" size="1.1em" color="red" />
-              配信情報の取得に失敗しました。
-            </div>
-            <div v-else>
-              <div v-if="apiResponse.live.length > 0">
-                <span class="text-body1">
-                  <q-icon name="mdi-play-circle-outline" size="1.1em" color="red" />
-                  現在配信中のライブストリーム
-                </span>
-                <div class="q-pa-md q-gutter-md">
-                  <YouTubeVideoLink v-for="activeLive in apiResponse.live" :video-id="activeLive.id" :video-title="activeLive.snippet.title" />
-                </div>
-              </div>
-              <div v-else-if="apiResponse.upcoming.length > 0">
-                <span class="text-body1">
-                  <q-icon name="mdi-clock-edit-outline" size="1.1em" color="green" />
-                  現在予定されているライブストリーム
-                </span>
-                <div class="q-pa-md q-gutter-md">
-                  <YouTubeVideoLink v-for="upcomingLive in apiResponse.upcoming" :video-id="upcomingLive.id" :video-title="upcomingLive.snippet.title" />
-                </div>
+        <div :class="{ 'liveinfo-content-loading': pending }">
+          <Transition appear name="liveinfo">
+            <div v-if="!pending">
+              <div v-if="error" class="text-red">
+                <q-icon name="mdi-alert-outline" size="1.1em" color="red" />
+                配信情報の取得に失敗しました。
               </div>
               <div v-else>
-                予定されているライブ配信はありません。
+                <div v-if="apiResponse.live.length > 0">
+                  <span class="text-body1">
+                    <q-icon name="mdi-play-circle-outline" size="1.1em" color="red" />
+                    現在配信中のライブストリーム
+                  </span>
+                  <div class="q-pa-md q-gutter-md">
+                    <YouTubeVideoLink v-for="activeLive in apiResponse.live" :video-id="activeLive.id" :video-title="activeLive.snippet.title" />
+                  </div>
+                </div>
+                <div v-else-if="apiResponse.upcoming.length > 0">
+                  <span class="text-body1">
+                    <q-icon name="mdi-clock-edit-outline" size="1.1em" color="green" />
+                    現在予定されているライブストリーム
+                  </span>
+                  <div class="q-pa-md q-gutter-md">
+                    <YouTubeVideoLink v-for="upcomingLive in apiResponse.upcoming" :video-id="upcomingLive.id" :video-title="upcomingLive.snippet.title" />
+                  </div>
+                </div>
+                <div v-else>
+                  予定されているライブ配信はありません。
+                </div>
+                <p class="text-caption q-ma-sm">
+                  ※ {{ apiResponse.timestamp }} 時点の情報です。
+                </p>
               </div>
-              <p class="text-caption q-ma-sm">
-                ※ {{ apiResponse.timestamp }} 時点の情報です。
-              </p>
             </div>
-          </div>
-        </Transition>
-      </q-card-section>
+          </Transition>
+        </div>
 
-      <q-inner-loading
-        :showing="pending"
-        label="Please wait..."
-        label-class="text-cyan"
-        label-style="font-size: 1.1em"
-      />
+        <q-inner-loading
+          :showing="pending"
+          label="Please wait..."
+          label-class="text-cyan"
+          label-style="font-size: 1.1em"
+        />
+      </q-card-section>
     </q-card>
 
     <template #fallback>
@@ -91,5 +93,9 @@ const { data: apiResponse, pending, error, refresh } = await useFetch(queryUrl, 
 
 .liveinfo-enter-from {
   opacity: 0;
+}
+
+.liveinfo-content-loading {
+  min-height: 100px;
 }
 </style>
